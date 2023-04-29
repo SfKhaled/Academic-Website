@@ -1,0 +1,71 @@
+*{
+	margin: 0px; padding: 0px;
+}
+
+#menu ul{
+	list-style: none;
+}
+#menu ul li{
+	float: left; color: black; background-color: white; 
+	height: 50px; line-height: 50px; width: 16.665%; 
+	text-align: center;
+}
+#menu ul li:hover{
+	color: red; background-color: aqua; 
+	border-bottom: solid; 
+}
+#menu ul ul li{
+	width: 100%;
+}
+#menu ul ul{
+	display: none;
+}
+#menu ul li:hover ul{
+	display: block;
+}
+#menu ul ul:hover li{
+	color: gold; background-color: lightseagreen;
+}
+#signin {
+	opacity: .5; background-color: white; margin-top: 235px;
+	width: 17.5%; padding: 18px; margin-left: 273px;
+}  
+
+#menu ul ul ul li{margin-left: 273px; display: none;}
+#menu ul ul ul{margin-top: -50px;}
+#menu ul ul li:hover ul li{
+	display: block; color: red; background-color: yellow;
+}
+
+#menu ul ul ul li{ color: red; background-color: yellow;
+
+}
+
+/*-------Image Gallery Starts Here----*/
+
+
+h1{
+	text-align: center; margin: 40px 0px; color: red;
+}
+#images{
+	float: left; width: 23.65%; border: solid 2px;
+	margin: 7px; 
+}
+
+#images img{
+	height: 230px; width: 100%; opacity: .8;
+}
+#gallery{
+	margin:0px 6px;
+}
+#images p{
+	padding: 5px; text-align: center;
+}
+#images:hover{
+	border-color: red; border-radius: 40px 5px;
+}
+#images img:hover{
+	opacity: 1; border-radius: 40px 5px;
+}
+	
+/*-------Image Gallery Ends Here----*/
